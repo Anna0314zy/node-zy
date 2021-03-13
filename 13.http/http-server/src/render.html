@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 处理路径不要采用./ ../ 服务端永远都是绝对路径 -->
+   <% dirs.forEach(item => {%>
+    <li><a href="<%=item.href%>"><%=item.dir%></a></li>
+    <%})%>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "2.promise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "2.promise.js",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "co": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

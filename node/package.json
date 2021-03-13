@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "commander": "^6.2.1"
+  },
+  "devDependencies": {
+    "chalk": "^4.1.0"
   }
 }

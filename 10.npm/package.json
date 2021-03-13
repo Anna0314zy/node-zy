@@ -1,0 +1,20 @@
+{
+  "name": "fish-pack",
+  "version": "1.0.0",
+  "description": "package.jaon ```bash npm init ``` ## 下载包 全局安装 我要写一个全局包",
+  "main": "index.js",
+  "bin": {
+    "fish-pack": "./bin/www.js",
+    "fp": "./bin/www.js",
+    "mime": "mime 1.jpg"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "mime": "^2.4.7"
+  }
+}
